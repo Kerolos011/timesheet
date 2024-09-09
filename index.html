@@ -138,8 +138,8 @@
           var userLatitude = position.coords.latitude;
           var userLongitude = position.coords.longitude;
 
-          var allowedLatitude = 26.318440978642915;
-          var allowedLongitude = 50.223062481709924;
+          var allowedLatitude = 24.666420597370823;
+          var allowedLongitude = 46.786578852119995;
           var radius = 0.05;
 
           var distance = Math.sqrt(Math.pow(userLatitude - allowedLatitude, 2) + Math.pow(userLongitude - allowedLongitude, 2));
@@ -170,6 +170,7 @@
 </header>
 
 <main>
+  <h2>ٍSulai</h2>
   <h2>Geolocation and Code Verification</h2>
   <p>Click the button to verify your location and get the code</p>
   <button onclick="getLocationAndSubmit()">Check Your Location</button>
